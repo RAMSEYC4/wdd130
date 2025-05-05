@@ -1,0 +1,22 @@
+main {
+  max-width: 800px;
+}
+
+aside {
+  width: 100px;
+  margin: 10px;
+  border: 1px solid;
+  padding: 2px;
+  color: gold;
+}
+
+img aside {
+  width: 150x;
+  height: auto;
+}
+
+footer{
+  padding: 10px;
+  border-top: 2px solid black;
+  text-align: center;
+}
