@@ -5,18 +5,19 @@ main {
 aside {
   width: 100px;
   margin: 10px;
-  border: 1px solid;
+  border: 1px solid black;
   padding: 2px;
   color: gold;
+  background-color: rgb(155, 155, 155);
 }
 
 img aside {
-  width: 150x;
+  width: 200x;
   height: auto;
 }
 
 footer{
-  padding: 10px;
+  margin:0;
   border-top: 2px solid black;
   text-align: center;
 }
