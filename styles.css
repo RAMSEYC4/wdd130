@@ -3,10 +3,10 @@ main {
 }
 
 aside {
-  width: 100px;
+  width:79%;
   margin: 10px;
   border: 1px solid black;
-  padding: 2px;
+  padding: 1rem;
   color: gold;
   background-color: rgb(155, 155, 155);
 }
