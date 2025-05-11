@@ -11,13 +11,13 @@ aside {
   background-color: rgb(155, 155, 155);
 }
 
-img aside {
+main img {
   width: 200x;
   height: auto;
 }
 
 footer{
-  margin:0;
+  margin:15px;
   border-top: 2px solid black;
   text-align: center;
 }
