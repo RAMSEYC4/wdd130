@@ -16,6 +16,10 @@ main img {
   height: auto;
 }
 
+p{
+  padding:0;
+}
+
 footer{
   margin:15px;
   border-top: 2px solid black;
