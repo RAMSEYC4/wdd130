@@ -3,25 +3,26 @@ main {
 }
 
 aside {
-  width:79%;
+  width: 79%;
   margin: 10px;
   border: 1px solid black;
   padding: 1rem;
-  color: gold;
   background-color: rgb(155, 155, 155);
+  color: gold;
+  max-width: 800px;
 }
 
-main img {
+main img, aside img {
   width: 200px;
   height: auto;
 }
 
-p{
-  padding:0;
+p {
+  padding: 0;
 }
-
-footer{
-  margin:15px;
-  border-top: 2px solid black;
-  text-align: center;
+  
+  footer {
+    margin: 15px;
+    border-top: 2px solid black;
+    text-align: center;
 }
