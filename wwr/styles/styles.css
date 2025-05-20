@@ -14,9 +14,6 @@
 }
 
 body {
-  /*disabled user from selecting content*/
-  user-select: none !important;
-  -webkit-user-select: none;
   font-family: var(--body-font);
   color: var(--accent1-color);
 }
@@ -30,7 +27,7 @@ footer {
 
 h1,
 h2 {
-  font-family: var(--accent1-color);
+  font-family: var(--heading-font);
   color: var(--primary-color);
 }
 
@@ -54,7 +51,6 @@ article {
   display: block;
   width: 100%;
   height: auto;
-
 }
 
 h1 {
@@ -65,4 +61,9 @@ h1 {
   text-align: center;
   background-color: var(--accent2-color);
   color: #fff;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
 }
