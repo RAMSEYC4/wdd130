@@ -67,3 +67,8 @@ h1 {
   float: right;
   width: 125px;
 }
+
+footer{
+  font-size: 30px;
+  color: black !important;
+}
