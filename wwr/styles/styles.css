@@ -40,7 +40,7 @@ header>nav {
 
 nav a {
   border: 1px solid #000;
-  padding: 14px 25px 14px 25px;
+  padding: 15px 25px 14px 25px;
   align-self: center;
 }
 
@@ -146,6 +146,7 @@ nav {
 
 
 footer p {
+  /* border: 1px solid #000; */
   color: green;
   text-align: center;
   align-self: center;
