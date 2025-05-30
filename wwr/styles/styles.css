@@ -31,21 +31,16 @@ header {
   column-gap: 20px;
 }
 
-nav, header > nav {
+header>nav {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  flex-direction: row;
-}
-
-nav {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 nav a {
   border: 1px solid #000;
-  padding: 14px 25px;
+  padding: 14px 25px 14px 25px;
   align-self: center;
 }
 
@@ -53,7 +48,7 @@ nav a {
   margin: 0 auto;
 }
 
-.hero, .logo {
+.hero {
   margin: 0 auto;
 }
 
@@ -62,31 +57,60 @@ nav a {
   text-align: center;
 }
 
-.hero p, .content p:first-child, .content p:last-child {
+.hero p {
+  padding: 30px;
   text-align: justify;
 }
 
-.hero p {
-  padding: 30px;
+.hero article {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img {
+  width: 300px;
+
+  height: 300px;
+  object-fit: contain !important;
+}
+
+.section2 .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section2 h2 {
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+
+.content p {
+  justify-content: center;
+  align-content: center;
 }
 
 .content p:first-child {
+  text-align: justify;
   padding: 34px;
 }
 
 .content p:last-child {
+  text-align: justify;
   padding: 40px;
-}
-
-.gallery h2, .gallery h3 {
-  text-align: center;
 }
 
 .gallery h2 {
   padding-top: 25px;
 }
 
-.gallery > div {
+.gallery h2,
+h3 {
+  text-align: center;
+}
+
+.gallery>div {
   display: flex;
   justify-content: center;
   column-gap: 43px;
@@ -105,6 +129,7 @@ figure img {
 
 footer {
   margin-top: 50px;
+  /* border: 1px solid #000; */
   display: grid;
   grid-template-columns: 4.4fr 1fr;
 }
@@ -112,6 +137,13 @@ footer {
 footer a {
   border: none;
 }
+
+nav {
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
 
 footer p {
   color: green;
