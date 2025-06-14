@@ -4,6 +4,7 @@
   ],
   "hints": {
     "css-prefix-order": "off",
-    "axe/name-role-value": "off"
+    "axe/name-role-value": "off",
+    "compat-api/css": "off"
   }
 }
