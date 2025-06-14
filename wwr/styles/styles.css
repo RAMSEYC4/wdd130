@@ -724,7 +724,8 @@ main {
 .hero1 {
   position: relative;
   height: 100vh;
-  background-image: url('/wwr/images/Adventure-4.webp');
+  background-image: url('wwr/images/Adventure-4.webp');
+  /* images/website-logo.png */
   background-size: cover;
   background-position: center;
   display: flex;
